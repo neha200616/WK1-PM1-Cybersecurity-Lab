@@ -43,23 +43,33 @@ ip route
 ping -c 4 10.0.0.1
 ping -c 4 8.8.8.8
 ping -c 4 google.com
-6. Shared Folder
-Host: 
+## 6. Shared Folder
 
-Kali: /downloads
+- Host: Windows
+- Kali: /downloads
 
-7. Learning Outcomes
-Virtual machine configuration.
+## 7. Learning Outcomes
 
-NAT networking.
+- Virtual machine configuration.
+- NAT networking.
+- Static IP configuration.
+- Linux networking commands.
+- Shared folder configuration.
+- Internet connectivity testing.
 
-Static IP configuration.
+## 8. Lab Screenshots
 
-Linux networking commands.
+### 1. Kali Linux Installation
+![Kali Linux](kali%201.jpeg)
 
-Shared folder configuration.
+### 2. Network Configuration
+![Network Configuration](kali%20network.jpeg)
 
-Internet connectivity testing.
+### 3. VirtualBox Setup
+![VirtualBox Setup](virtualmachine.png)
 
-8. Conclusion
-Successfully completed WK1-PM1 by setting up a cybersecurity testing lab using VirtualBox and Kali Linux.
+---
+
+**Project:** WK1-PM1 Cybersecurity Lab
+
+**Status:** Completed
